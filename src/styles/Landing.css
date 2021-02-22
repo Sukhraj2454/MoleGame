@@ -1,0 +1,60 @@
+.Landing{
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    text-align:center;
+    overflow: auto;
+}
+
+.Landing h1{
+    padding: 4vw;
+    background: #e45826;
+    font-size: 75px;
+    color: #433520;
+    animation: fl2 .3s infinite;
+}
+
+.Landing h2{
+    position: absolute;
+    top:50%;
+    left:40.5vw;
+    padding: 6vw;
+    cursor: pointer;
+    z-index: 2;
+    background: #e6d5b8;
+    border-top: 2px solid transparent;
+}
+
+.Landing h2{
+    animation: flow .3s infinite;
+}
+
+.Landing h2:hover{
+    animation-play-state: paused;
+}
+
+
+.Mole{
+    animation: ud 5s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes flow{
+    25% {color:red;
+        background: blue;}
+    65% {color:blue;
+        background: yellow;}
+    100% {color:yellow;
+        background: red;}
+}
+
+@keyframes fl2{
+    25% {color:red;}
+    65% {color:blue;}
+    100% {color:yellow;}
+}
+
+@keyframes ud{
+    0%   {top:25vw}
+    25%  {top:17vw}
+    100%  {top:15vw}
+}

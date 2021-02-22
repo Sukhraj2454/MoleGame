@@ -1,0 +1,80 @@
+.Mole{
+    position: absolute;
+    /* top:40vh;
+    left: 45vw; */
+    background: #85603f;
+    height: 10vw;
+    width: 10vw;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border: .5vw solid black;
+    z-index: 1;
+}
+.e1,.e2{
+    position: absolute;
+    height: 1vw;
+    width: 1vw;
+    background: black;
+    border-radius: 80%;
+    top:40px;
+    border:.5vw solid white;    
+}
+.e1{
+    left:40px;
+}
+.e2{
+    right: 40px;
+}
+.nose{
+    background: black;
+    height: 20px;
+    width: 45px;
+    border-radius: 100%;
+    position: absolute;
+    bottom:45px;
+    left:55px;
+}
+.n1,.n2,.n3,.n4,.n5,.n6{
+    position: absolute;
+    background: black;
+    width: 100px;
+    height: 4px;
+}
+.n1{
+    bottom: 90px;
+    left: -60px;
+    transform: rotateZ(30deg);
+}
+.n2{
+    bottom:50px;
+    left:-60px;
+}
+.n3{
+    bottom: 10px;
+    left: -60px;
+    transform: rotateZ(-30deg);
+}
+.n4{
+    bottom: 90px;
+    right:-60px;
+    transform: rotateZ(-30deg);
+}
+.n5{
+    bottom:50px;
+    right:-60px;
+}
+.n6{
+    bottom:10px;
+    right:-60px;
+    transform: rotateZ(30deg);
+}
+
+.mouth{    
+    position: absolute;
+    background: black;
+    width: 50px;
+    height: 4px;
+    left:55px;
+    bottom:20px;
+    border-radius: 100%;
+}
