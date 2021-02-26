@@ -1,11 +1,9 @@
 import '../styles/Mole.css'
-// import {useState} from 'react';
 
-const Mole = ({pos}) =>{
-    // const [posi, setposi] = useState({})
+const Mole = ({css}) =>{
 
   return (
-    <div className="Mole" style={pos}>
+    <div className="Mole" style={css}>
         <div className='e1'></div>
         <div className='e2'></div>
         <div className='nose'></div>
@@ -22,8 +20,10 @@ const Mole = ({pos}) =>{
 
 Mole.defaultProps ={
     pos:{
-        top:'40vh',
-        left:'45vw'
+        top:'35vh'
+    },
+    anim:{
+      animation:'ud 3s infinite'
     }
 }
 

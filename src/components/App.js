@@ -1,13 +1,16 @@
 import '../styles/App.css';
-import Landing from './Landing' 
-import Mole from './Mole';
+import {BrowserRouter as Router, Route} from 'react-router-dom'; 
+import Main from './Main';
+import Landing from './Landing';
 
 function App() {
   return (
-    <div className="App">
-      <Landing/>
-      <Mole id='LMole' pos={{top:'25vw',left:'45vw'}}/>
-    </div>
+    <Router>
+      <div className="App">
+        <Route path='/' exact><Landing/></Route>
+        <Route path='/Start' exact><Main/></Route>
+      </div>
+    </Router>
   );
 }
 

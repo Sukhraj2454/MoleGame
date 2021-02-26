@@ -1,0 +1,19 @@
+.Hole{
+    position: absolute;
+}
+
+.h1, .h2{
+    position: absolute;
+    background: black;
+}
+.h1, .h2{
+    width: 20vw;
+    height:20vh;
+    border-radius: 50%;
+}
+.h2{
+    z-index: 3;
+    background: linear-gradient(transparent, black, black);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}

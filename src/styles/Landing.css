@@ -33,11 +33,6 @@
 }
 
 
-.Mole{
-    animation: ud 5s 1;
-    animation-fill-mode: forwards;
-}
-
 @keyframes flow{
     25% {color:red;
         background: blue;}
@@ -53,8 +48,3 @@
     100% {color:yellow;}
 }
 
-@keyframes ud{
-    0%   {top:25vw}
-    25%  {top:17vw}
-    100%  {top:15vw}
-}
