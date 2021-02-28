@@ -7,6 +7,7 @@
     border-top-right-radius: 100%;
     border: .5vw solid black;
     z-index: 1;
+    cursor: pointer;
 }
 .e1,.e2{
     position: absolute;

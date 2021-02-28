@@ -1,8 +1,6 @@
 import '../styles/Hole.css'
-// import {useState} from 'react';
 
 const Hole = ({pos}) =>{
-    // const [posi, setposi] = useState({})
 
   return (
     <div className="Hole" style={pos}>
