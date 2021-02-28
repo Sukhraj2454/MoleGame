@@ -14,7 +14,7 @@ function Main() {
     setScore(score+1);
   }
   return (
-    <div>
+    <div id='Main'>
         <h2>Score:{score}</h2>
         <h4>Click on Head of Mole to Increase Scores.</h4>
         <div>

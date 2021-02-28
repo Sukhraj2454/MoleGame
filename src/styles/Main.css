@@ -1,13 +1,20 @@
+#Main{
+background-color: #c6a9a3;
+height: 100vh;
+overflow-y: hidden;
+}
 #bot{
     position: absolute;
     height: 20vh;
-    background: #e6d5b8;
+    background: #c6a9a3;
     /* background: red; */
     width: 100%;;
     bottom:0;
     z-index: 2;
 }
+
 h2,h4{
+    color:rgb(41, 35, 29);
     text-align: center;
     margin:2vw;
     font-family: 'Press Start 2P', cursive;

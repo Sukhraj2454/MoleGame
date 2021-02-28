@@ -4,27 +4,27 @@
     text-align:center;
     overflow: auto;
 }
-
+.Landing p{
+    position: absolute;
+    top:0;
+    z-index: -1;
+    text-align: center;
+    animation: fl2 .3s infinite;
+}
 .Landing h1{
     padding: 4vw;
-    background: #e45826;
+    background: #1e212d5b;
     font-size: 75px;
     color: #433520;
     animation: fl2 .3s infinite;
 }
 
 .Landing h2{
-    position: absolute;
-    top:50%;
-    left:40.5vw;
+    margin-top: 15vh;
     padding: 6vw;
     cursor: pointer;
-    z-index: 2;
     background: #e6d5b8;
     border-top: 2px solid transparent;
-}
-
-.Landing h2{
     animation: flow .3s infinite;
 }
 

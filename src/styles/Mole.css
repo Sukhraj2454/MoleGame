@@ -15,67 +15,67 @@
     width: 1vw;
     background: black;
     border-radius: 80%;
-    top:40px;
+    top:5.47vh;
     border:.5vw solid white;    
 }
 .e1{
-    left:40px;
+    left:2.6vw;
 }
 .e2{
-    right: 40px;
+    right: 2.6vw;
 }
 .nose{
     background: black;
-    height: 20px;
-    width: 45px;
+    height: 2.7vh;
+    width: 2.92vw;
     border-radius: 100%;
     position: absolute;
-    bottom:45px;
-    left:55px;
+    bottom:6.15vh;
+    left:3.5vw;
 }
 .n1,.n2,.n3,.n4,.n5,.n6{
     position: absolute;
     background: black;
-    border: 2px solid white;
-    width: 80px;
-    height: 4px;
+    border: 0.13vw solid white;
+    width: 5.2vw;
+    height: 0.5vh;
 }
 .n1{
-    bottom: 90px;
-    left: -40px;
+    bottom: 12.3vh;
+    left: -2.6vw;
     transform: rotateZ(30deg);
 }
 .n2{
-    bottom:50px;
-    left:-40px;
+    bottom:6.93vh;
+    left:-2.6vw;
 }
 .n3{
-    bottom: 10px;
-    left: -40px;
+    bottom: 1.3vh;
+    left: -2.6vw;
     transform: rotateZ(-30deg);
 }
 .n4{
-    bottom: 90px;
-    right:-40px;
+    bottom: 12.3vh;
+    right:-2.6vw;
     transform: rotateZ(-30deg);
 }
 .n5{
-    bottom:50px;
-    right:-40px;
+    bottom:6.83vh;
+    right:-2.6vw;
 }
 .n6{
-    bottom:10px;
-    right:-40px;
+    bottom:1.3vh;
+    right:-2.6vw;
     transform: rotateZ(30deg);
 }
 
 .mouth{    
     position: absolute;
     background: black;
-    width: 50px;
-    height: 4px;
-    left:55px;
-    bottom:20px;
+    width: 3.25vw;
+    height: 0.5vw;
+    left:3.5vw;
+    bottom:2.7vh;
     border-radius: 100%;
 }
 
