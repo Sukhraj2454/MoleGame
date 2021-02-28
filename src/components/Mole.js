@@ -1,11 +1,15 @@
 import '../styles/Mole.css'
 import {useState} from 'react';
 
-const style = [{animation:'ud 3s infinite'},
+const style = [[{animation:'ud 3s infinite'},
               {animation:'fastud 1s infinite'},
-              {animation:'ud 1.5s infinite'}
-            ];
+              {animation:'ud 1.5s infinite'}],
 
+              [{animation:'ud 1.5s infinite'},
+              {animation:'fastud 0.9s infinite'},
+              {animation:'ud 0.75s infinite'}]
+            ];
+var sc=0;
 const Mole = ({css, inc}) =>{
   const [ani, setani] = useState(css)
   // const rep = setInterval(()=>{
@@ -18,13 +22,13 @@ const Mole = ({css, inc}) =>{
           top:css.top,
           left:css.left
         }
-
+        sc++;
       setani(val)
        setTimeout(()=>{
         let val = {
           top:css.top,
           left:css.left,
-          animation:style[Math.floor(Math.random()*10)%3].animation
+          animation:style[sc<30?0:1][Math.floor(Math.random()*10)%3].animation
         }
         setani(val)
        }, 2000); 
