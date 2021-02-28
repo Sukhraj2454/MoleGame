@@ -6,22 +6,28 @@ const style = [{animation:'ud 3s infinite'},
               {animation:'ud 1.5s infinite'}
             ];
 
-const Mole = ({css}) =>{
+const Mole = ({css, inc}) =>{
   const [ani, setani] = useState(css)
-  const rep = setInterval(()=>{
-  let val = {
-      top:css.top,
-      left:css.left,
-      animation:style[Math.floor(Math.random()*10)%3].animation
-    }
-    setani(val)
-  }, 3000);
+  // const rep = setInterval(()=>{
+  
+  // }, 3000);
+
   const onClick = ()=>{
+      inc();
       let val = {
           top:css.top,
           left:css.left
         }
+
+      setani(val)
+       setTimeout(()=>{
+        let val = {
+          top:css.top,
+          left:css.left,
+          animation:style[Math.floor(Math.random()*10)%3].animation
+        }
         setani(val)
+       }, 2000); 
   }
   return (
     <div className="Mole" style={ani} onClick={()=>{onClick()}}>
